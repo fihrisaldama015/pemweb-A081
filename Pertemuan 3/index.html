@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      h1.kampus {
+        color: green;
+      }
+      h1.kelas {
+        color: red;
+      }
+      span {
+        color: yellow;
+      }
+      span p {
+        color: aqua;
+      }
+      div.box-merah {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+      div.circle-kuning {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1
+      style="
+        font-weight: bold;
+        color: #312e81;
+        font-family: 'SF Pro Display';
+        font-size: 3em;
+      "
+    >
+      Data Mahasiswa
+    </h1>
+    <h1 class="kampus">IF UPN</h1>
+    <h1 class="kelas">Kuliah PEMWEB A</h1>
+    <span>
+      <h1>Ruang 305</h1>
+    </span>
+    <span>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+        molestias quibusdam, commodi error rerum pariatur deserunt porro iusto
+        doloremque non neque aperiam voluptatibus, nesciunt modi, accusamus
+        animi eaque temporibus architecto?
+      </p>
+    </span>
+    <!-- solusi pertama -->
+    <table>
+      <tr>
+        <td>
+          <div class="box-merah"></div>
+        </td>
+        <td>
+          <div class="circle-kuning"></div>
+        </td>
+      </tr>
+    </table>
+    <!-- solusi kedua -->
+    <!-- <div style="display: inline-flex">
+      <div class="box-merah"></div>
+      <div class="circle-kuning"></div>
+    </div> -->
+    <table border="1" cellpadding="5">
+      <thead>
+        <tr style="background-color: aquamarine">
+          <td>NPM</td>
+          <td>Nama</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>21081010110</td>
+          <td>Muhamad Fihris Aldama</td>
+        </tr>
+        <tr>
+          <td>21081010106</td>
+          <td>Muhamad Raihan Ramadhani Isworo</td>
+        </tr>
+        <tr>
+          <td>21081010119</td>
+          <td>Rayya Ruwaim Rafie</td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="link.html">link</a>
+    <video width="480" height="480" controls>
+      <source src="" />
+    </video>
+  </body>
+</html>
