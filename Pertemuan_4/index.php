@@ -4,6 +4,10 @@ $judul="Bio.";
 $kelas="Pemweb-A081";
 $nama="M. Fihris Aldama";
 $npm="21081010110";
+$tanggal_lahir="2003-05-13";
+$date_ttl=strtotime($tanggal_lahir);
+$selisihWaktu=strtotime("now")-$date_ttl;
+$umur=($selisihWaktu)/60/60/24/365;
 $jurusan="Informatika";
 $about="My Name is Muhamad Fihris Aldama, they call me Aldam. Student from UPN
 \"Veteran\" Jawa Timur. I am interested to Web Development especially
@@ -55,7 +59,7 @@ $alamat="Jalan Medayu Selatan XV No.29, RW 04, Medokan Ayu, Rungkut, Surabaya, E
       <div class="info">
         <h1><?= $nama; ?></h1>
         <div class="red"></div>
-        <p><?= $npm."//".$jurusan;?></p>
+        <p><?= $npm."//".$jurusan;?> | <b><?= round($umur,1) ?></b>  Tahun</p>
       </div>
     </div>
     <div class="about">
