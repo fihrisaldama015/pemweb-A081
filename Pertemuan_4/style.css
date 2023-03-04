@@ -123,6 +123,7 @@ body {
 .info > h1 {
   font-weight: 900;
   margin: 0;
+  font-size: 2.5rem;
   color: #0f172a;
   text-align: center;
 }
