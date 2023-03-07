@@ -5,9 +5,20 @@ $kelas="Pemweb-A081";
 $nama="M. Fihris Aldama";
 $npm="21081010110";
 $tanggal_lahir="2003-05-13";
-$date_ttl=strtotime($tanggal_lahir);
-$selisihWaktu=strtotime("now")-$date_ttl;
-$umur=($selisihWaktu)/60/60/24/365;
+
+// method 1 -> Manual String to time (detik)
+$date_lahir=strtotime($tanggal_lahir);
+$selisih_waktu=strtotime("now")-$date_lahir;
+$umur=($selisih_waktu)/60/60/24/365;
+
+//method 2 -> PHP Datetime Objek (diff)
+// $date_lahir = new Datetime($tanggal_lahir);
+// $date_now = new Datetime("Now");
+// $objek_selisih_waktu = $date_now->diff($date_lahir);
+// $umur = $objek_selisih_waktu->y;
+// $umur_bulan = $objek_selisih_waktu->m;
+// $umur_hari = $objek_selisih_waktu->d;
+
 $jurusan="Informatika";
 $about="My Name is Muhamad Fihris Aldama, they call me Aldam. Student from UPN
 \"Veteran\" Jawa Timur. I am interested to Web Development especially
