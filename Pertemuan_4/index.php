@@ -43,7 +43,7 @@ $alamat="Jalan Medayu Selatan XV No.29, RW 04, Medokan Ayu, Rungkut, Surabaya, E
       <div class="nav-hero">
         <img src="./upn.png" width="64" height="64" alt="upn" />
         <div class="red-1"></div>
-        <h1><?= $title; ?></h1>
+        <h1><?= $web_title; ?></h1>
       </div>
       <div class="blue-container">
         <p class="kelas"><?= $kelas; ?></p>
