@@ -26,7 +26,7 @@
       $jumlah_km = $_POST['jumlah_km'];
       $tanggal = $_POST['tanggal'];
       //query SQL
-      $query = "UPDATE trans_upn SET id_kondektur = '$id_kondektur',id_bus = '$id_bus',id_driver = '$id_driver',jumlah_km = '$jumlah_km',tanggal = '$tanggal')";
+      $query = "UPDATE trans_upn SET id_kondektur = '$id_kondektur',id_bus = '$id_bus',id_driver = '$id_driver',jumlah_km = '$jumlah_km',tanggal = '$tanggal' WHERE id_trans_upn = $id_trans_upn_update";
 
       //eksekusi query
       $result = mysqli_query(connection(),$query);
