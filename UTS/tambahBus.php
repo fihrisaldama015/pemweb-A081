@@ -46,10 +46,10 @@
         <main role="main" class="main">
           <?php 
               if ($status=='ok') {
-                echo '<br><br><div class="alert alert-success" role="alert">Data Customer berhasil disimpan</div>';
+                echo '<br><br><div class="alert alert-success" role="alert">Data Bus berhasil disimpan</div>';
               }
               elseif($status=='err'){
-                echo '<br><br><div class="alert alert-danger" role="alert">Data Customers gagal disimpan</div>';
+                echo '<br><br><div class="alert alert-danger" role="alert">Data Bus gagal disimpan</div>';
               }
           ?>
 
