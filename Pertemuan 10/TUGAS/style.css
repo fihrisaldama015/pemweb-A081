@@ -1,0 +1,191 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem 2rem;
+  background-color: #0284c7;
+  color: #e0f2fe;
+}
+
+.navbar ul {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar a {
+  color: #e0f2fe;
+}
+
+.navbar a.active {
+  color: #0f172a;
+  font-weight: bold;
+}
+
+.navbar li {
+  margin: 1rem 0;
+}
+.container {
+  margin-left: 175px;
+  background-color: #f0f9ff;
+  flex: 1;
+  min-height: 100vh;
+  padding: 0 4rem;
+}
+
+.main {
+  padding: 4rem;
+  color: #0f172a;
+}
+
+.main h2 {
+  margin: 0 0 2rem 0;
+}
+
+.tambah {
+  background-color: #0284c7;
+  color: white;
+}
+
+.filter {
+  background-color: #16a34a;
+  color: white;
+}
+
+.reset {
+  background-color: #ef4444;
+  color: white;
+}
+
+.update {
+  background-color: #fef08a;
+  color: #713f12;
+}
+
+.delete {
+  background-color: #fecaca;
+  color: #ef4444;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.button {
+  border: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.button:hover {
+  cursor: pointer;
+  filter: brightness(0.95);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.select_filter {
+  border: 1px solid #0284c7aa;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.input_text {
+  border: 1px solid #0284c744;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.input_text:focus {
+  outline: none;
+}
+
+.cover_lama {
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cover_img {
+  border-radius: 1rem;
+}
+
+.table {
+  margin-top: 2rem;
+}
+
+.table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table thead {
+  background-color: #0284c7;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.table thead th {
+  padding: 0.5rem 1rem;
+  text-align: left;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #0284c744;
+}
+
+.table tbody tr:hover {
+  background-color: #0284c722;
+}
+
+.table tbody td {
+  padding: 0.75rem 1rem 1rem 1rem;
+}
+
+.alert {
+  padding: 1rem 2rem;
+  border: 1px solid;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.alert-success {
+  background-color: #10b981;
+  color: white;
+}
+
+.alert-danger {
+  background-color: #ef4444;
+  color: white;
+}
